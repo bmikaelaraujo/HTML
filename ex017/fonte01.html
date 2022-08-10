@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas
+            cm, mm, in, px, pt,pc (as duas últimas não recomendadas para sites, apenas para impressão)
+            16 px geralmente é = 1 em (tamanho normal da fonte)
+
+            Medidas Relativas
+            em (tamanho atual da fonte), ex(tamanho da altura x), rem(relativo ao root), vw(largura da viewport), vh(altura da viewport) */
+
+            font-size: 1em;
+        }
+
+        h1{
+            /*font-family:'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+
+            /* shorhand font
+            
+            font-style -> font-wheight -> font-size -> font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum velit vitae officiis similique, id modi qui, assumenda tempora vero magni veritatis laudantium, aspernatur nobis. Repellat mollitia aspernatur quibusdam quam dolor.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laudantium mollitia repellat accusantium ut quam pariatur inventore delectus amet repudiandae nostrum numquam, soluta ab, ipsa exercitationem minus expedita incidunt quia.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto non porro esse consequatur nobis accusamus sequi tenetur? Amet placeat, non molestias aliquam, debitis ex quos blanditiis quidem totam at architecto!
+    </p>
+    <h2>Subtitulo do exercício.</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt eius porro molestiae asperiores dicta harum illum cum dolorum similique error consequuntur at aliquid, sint distinctio ex praesentium voluptas quas voluptatem!</p>
+  
+    
+</body>
+</html>
