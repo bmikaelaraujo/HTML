@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 97vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
-            background-repeat: no-repeat;
+            background-repeat: repeat-y;
             background-size: cover;
+            background-attachment: fixed;
+
+            /* Shorhand - background
+            color > image > position > repeat > size
+            > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center repeat-y cover fixed;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,6 +37,9 @@
     <main>
         <h1>Teste de Imagem de fundo.</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, perspiciatis ipsum, amet praesentium repellendus nesciunt repudiandae dolorum cum nam quidem deserunt veniam tempore recusandae officia magnam repellat doloribus sit fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ipsum porro magni maiores dignissimos facilis, impedit a ullam culpa voluptate nobis fuga velit id ea. Fugit hic aspernatur omnis! Asperiores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, nostrum. Quibusdam, placeat. Provident omnis officiis expedita necessitatibus, eveniet recusandae libero, quasi quidem quae dolorum reprehenderit atque, ad eligendi repellendus temporibus.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus voluptatem accusantium, impedit, officia quae magnam perferendis dolor quos iste eligendi suscipit dignissimos, hic nisi autem quaerat distinctio. Quibusdam, inventore aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae exercitationem delectus nesciunt sed incidunt, culpa doloremque distinctio harum deserunt laborum. Omnis eos earum illum repellat molestiae, explicabo esse soluta officia! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quam, numquam hic quibusdam doloremque beatae dolorum cumque, nulla debitis similique necessitatibus. Alias delectus pariatur blanditiis laborum. Architecto error quas accusamus.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus voluptatem accusantium, impedit, officia quae magnam perferendis dolor quos iste eligendi suscipit dignissimos, hic nisi autem quaerat distinctio. Quibusdam, inventore aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae exercitationem delectus nesciunt sed incidunt, culpa doloremque distinctio harum deserunt laborum. Omnis eos earum illum repellat molestiae, explicabo esse soluta officia! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quam, numquam hic quibusdam doloremque beatae dolorum cumque, nulla debitis similique necessitatibus. Alias delectus pariatur blanditiis laborum. Architecto error quas accusamus.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus voluptatem accusantium, impedit, officia quae magnam perferendis dolor quos iste eligendi suscipit dignissimos, hic nisi autem quaerat distinctio. Quibusdam, inventore aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae exercitationem delectus nesciunt sed incidunt, culpa doloremque distinctio harum deserunt laborum. Omnis eos earum illum repellat molestiae, explicabo esse soluta officia! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quam, numquam hic quibusdam doloremque beatae dolorum cumque, nulla debitis similique necessitatibus. Alias delectus pariatur blanditiis laborum. Architecto error quas accusamus.</p>
     </main>
     
 </body>
